@@ -61,3 +61,11 @@ AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
 select * from mentorship_eligiblity
+
+-- Count mentors by title
+SELECT COUNT (emp_no), title
+INTO mentors_count
+FROM mentorship_eligiblity
+GROUP BY title;
+
+select * from mentors_count
