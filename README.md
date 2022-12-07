@@ -12,7 +12,7 @@ The purpose of this analysis was to help Pewlett Hackard prepare for an upcoming
 ![retiring titles table](Screenshot1.png)
 
 ## Summary
-If we add up all the numbers in the table above, we see that Pewlett Hackard will need to hire 72,458 employees to replace the retirees. By running a new query, I was able to produce the table seen below.
+If we add up all the numbers in the table above using the sum function, we see that Pewlett Hackard will need to hire 72,458 employees to replace the retirees. By running a new query, I was able to produce the table seen below.
 
 ![mentors count](Screenshot2.png)
 
