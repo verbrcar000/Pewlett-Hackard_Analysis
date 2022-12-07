@@ -32,3 +32,12 @@ WHERE to_date = '9999-01-01'
 ORDER BY emp_no, to_date DESC;
 
 SELECT * FROM unique_titles
+
+-- Create retiring titles table
+SELECT COUNT (title), title
+INTO retiring_titles
+FROM unique_titles
+GROUP BY title
+ORDER BY COUNT(title) DESC;
+
+SELECT * FROM retiring_titles
